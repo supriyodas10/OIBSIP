@@ -1,0 +1,113 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    background-color:rgb(193, 238, 240);  
+    background-size: cover;
+}
+
+header {
+    background-color: #050A30;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #000C66;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    border: 2px white solid;
+}
+
+.search{
+    width: 150px;
+    height: 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.heading{
+    padding: 10px;
+
+}
+.book-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    background-size:cover;
+    
+}
+
+.book-list2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    }  
+  
+.book-card {
+    font-style: italic;
+    font-size: medium;
+    border: 2px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    background-size: cover;
+    background-color:white;
+    border:2px solid white;
+   }
+  
+.book-card img {
+    height: 175px;
+    width: 303px;
+    margin-bottom: 1rem;
+    background-size: cover;
+  }
+  
+.book-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+button{
+    background-color:#aafdfd;  
+}
+
+.footer1{
+    height: 40px;
+    color: white;
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    background-color: #000C66;
+}
+i{
+    color: white;
+    text-align: center;
+    justify-content:center; 
+    height:40px;
+    padding: 10px; 
+}
+footer {
+    background-color: #050A30;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
